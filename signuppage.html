@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign up</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<style>
+    body {
+    font-family: 'Roboto', Arial, sans-serif;
+    background-color: #f3f3f3;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    padding: 50px 100px;
+    border-radius: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.createaccountbox h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.createaccountbox form {
+    display: flex;
+    flex-direction: column;
+}
+
+.createaccountbox label {
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.createaccountbox input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+}
+
+.createaccountbox input::placeholder {
+    color: #999;
+}
+
+.createaccountbox .password-hint {
+    font-size: 12px;
+    color: #666;
+    margin-top: -10px;
+    margin-bottom: 15px;
+}
+
+.createaccountbox button {
+    padding: 10px;
+    background-color: #ff9900;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+.createaccountbox button:hover {
+    background-color: #e68a00;
+}
+
+.createaccountbox p {
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+#createAccountForm button a {
+    text-decoration: none;
+    color: #f3f3f3;
+    font-size: 15px;
+
+}
+
+#createAccountForm label{
+    font-size: 20px;
+}
+
+
+.businessaccount {
+    margin-top: 20px;
+}
+
+.businessaccount a {
+    color: #0066c0;
+    text-decoration: none;
+}
+
+.businessaccount a:hover {
+    text-decoration: underline;
+}
+
+.signinlink {
+    margin-top: 20px;
+}
+
+.signinlink p {
+    font-size: 14px;
+}
+
+.signinlink a {
+    color: #0066c0;
+    text-decoration: none;
+}
+
+.signinlink a:hover {
+    text-decoration: underline;
+}
+
+p{
+    font-size: 17px !important;
+}
+</style>
+<body>
+    <div class="container">
+        <div class="logo">amazon</div>
+        <div class="createaccountbox">
+            <h1>Create account</h1>
+            <form id="createAccountForm">
+                <label for="name">First and last name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Mobile number or email</label>
+                <input type="text" id="email" name="email" required>
+
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="At least 8 characters mixed" required>
+                <!-- <p class="password-hint"></p> -->
+
+                <label for="repassword">Re-enter password</label>
+                <input type="password" id="repassword" name="repassword" required>
+
+                <button type="submit"><a href="signpage.html" >Continue</a></button>
+            </form>
+            <p>By creating an account, you agree to Amazon's <a href="#">Conditions of Use</a> and <a href="#">Privacy Notice</a>.</p>
+            <div class="businessaccount">
+                <a href="#">Buying for work? Create a free business account</a>
+            </div>
+            <div class="signinlink">
+                <p>Already have an account? <a href="signpage.html">Sign in</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+
+   
+    <script>
+        document.getElementById('createAccountForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            const name = document.getElementById('name').value.trim();
+            const email = document.getElementById('email').value.trim();
+            const password = document.getElementById('password').value;
+            const repassword = document.getElementById('repassword').value;
+    
+            if (!name) {
+                alert('Please enter your first and last name.');
+                return;
+            }
+    
+            // Email
+            if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email) && !/^\d{10}$/.test(email)) {
+                alert('Please enter a valid email or 10-digit phone number.');
+                return;
+            }
+    
+            // Password 
+            if (!/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/.test(password)) {
+                alert('Password must be at least 8 characters long and one uppercase letter, one lowercase letter, one number, and one special character.');
+                return;
+            }
+    
+            // Password match
+            if (password !== repassword) {
+                alert('Passwords do not match.');
+                return;
+            }
+    
+            localStorage.setItem('userName', name);
+            localStorage.setItem('userEmail', email);
+            localStorage.setItem('userPassword', password);
+    
+            alert('Account created successfully!');
+            
+            window.location.href = 'signpage.html';
+        });
+    
+      
+    </script>
+    
+    
+</html>

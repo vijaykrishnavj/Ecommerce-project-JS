@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  
+</head>
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    padding: 50px 100px;
+    
+    border-radius: 18px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+.logo {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    font-family: "Edu AU VIC WA NT Hand", serif;
+}
+
+.signinbox h1 {
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.signinbox form {
+    display: flex;
+    flex-direction: column;
+}
+
+.signinbox label {
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.signinbox input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+}
+
+.signinbox button {
+    padding: 10px;
+    background-color: #ff9900;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+.signinbox button:hover {
+    background-color: #e68a00;
+}
+
+.signinbox p {
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+
+
+
+.help {
+    margin-top: 20px;
+}
+
+.help a {
+    display: block;
+    color: #0066c0;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.helplinks a:hover {
+    text-decoration: underline;
+}
+
+.newtoamazon {
+    margin-top: 20px;
+}
+
+.newtoamazon p {
+    font-size: 14px;
+}
+
+.newtoamazon button {
+    padding: 10px;
+    background-color: #e7e9ec;
+    border: 1px solid #a2a6ac;
+    border-radius: 4px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.newtoamazon button:hover {
+    background-color: #d5d9dd;
+}
+
+
+.newtoamazon button{
+    border-radius: 80px;
+   
+    
+}
+
+.newtoamazon button a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #28048e;
+    cursor: pointer;
+}
+
+.signinbox button{
+    border-radius: 80px;
+    padding: 12px;
+}
+
+
+#signinForm button a {
+    text-decoration: none;
+    color: #f3f3f3;
+    font-size: 15px;
+
+}
+
+#signinForm label{
+    font-size: 20px;
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+footer a {
+    color: #0066c0;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer p {
+    margin-top: 10px;
+    color: #555;
+}
+p{
+    font-size: 17px !important;
+}
+</style>
+<body>
+    <div class="container">
+        <div class="logo">amazon</div>
+        <div class="signinbox">
+            <h1>Sign In</h1>
+            <form id="signinForm">
+                <label for="email">Email or mobile phone number</label>
+                <input type="text" id="email" name="email" required>
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+                <button type="submit"><a href="index.html" >Continue</a></button>
+            </form>
+            <p>By continuing, you agree to Amazon's <a href="#">Conditions of Use</a> and <a href="#">Privacy Notice</a>.</p>
+            <div class="help">
+                <a href="#">Need help?</a>
+                <a href="#">Buying for work? Shop on Amazon Business</a>
+            </div>
+        </div>
+        <div class="newtoamazon">
+            <p>New to Amazon?</p>
+            <button><a href="signuppage.html">Create your Amazon account</a></button>
+        </div>
+        <footer>
+            <a href="#">Conditions of Use</a>
+            <a href="#">Privacy Notice</a>
+            <a href="#">Help</a>
+         
+        </footer>
+    </div>
+</body>
+
+<script>
+document.getElementById('signinForm').addEventListener('submit', function(event) {
+    event.preventDefault();
+    const email = document.getElementById('email').value;
+    const password = document.getElementById('password').value;
+// email
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email) && !/^\d{10}$/.test(email)) {
+        return alert('Please enter a valid email or 10-digit phone number.');
+    }
+// password
+    if (!/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/.test(password)) {
+        return alert('Password must be at least 8 characters long and include at least one uppercase letter, one lowercase letter, one number, and one special character.');
+    }
+
+    localStorage.setItem('userEmail', email);
+
+    alert('Login successfully!');
+    window.location.href = 'index.html';
+});
+
+</script>
+</html>

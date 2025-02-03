@@ -1,0 +1,685 @@
+{
+    "productsdata" : [
+    {
+      "id": 1,
+      "title": "Samsung Galaxy S23 Ultra",
+      "price": 124999,
+      "description": "Premium flagship smartphone with 200MP camera, S Pen support, and Snapdragon 8 Gen 2 processor.",
+      "category": "smartphones",
+      "image": "https://m.media-amazon.com/images/I/71lD7eGdW-L.jpg",
+      "rating": {
+        "rate": 4.7,
+        "count": 3245
+      },
+      "specifications": {
+        "ram": "12 GB",
+        "storage": "256 GB",
+        "processor": "Snapdragon 8 Gen 2"
+      }
+    },
+    {
+      "id": 2,
+      "title": "iPhone 15 Pro",
+      "price": 134900,
+      "description": "Apple's flagship phone with A17 Pro chip, titanium design, and pro camera system.",
+      "category": "smartphones",
+      "image": "https://www.imagineonline.store/cdn/shop/files/iPhone_15_Pro_Max_Blue_Titanium_PDP_Image_Position-1__en-IN.jpg?v=1694758834&width=1445",
+      "rating": {
+        "rate": 4.8,
+        "count": 2890
+      },
+      "specifications": {
+        "ram": "8 GB",
+        "storage": "256 GB",
+        "processor": "A17 Pro"
+      }
+    },
+    {
+      "id": 3,
+      "title": "OnePlus 11R 5G",
+      "price": 39999,
+      "description": "Performance flagship with Snapdragon 8+ Gen 1 and 100W SUPERVOOC charging.",
+      "category": "smartphones",
+      "image": "https://m.media-amazon.com/images/I/613SAOPmLeL.jpg",
+      "rating": {
+        "rate": 4.5,
+        "count": 5678
+      },
+      "specifications": {
+        "ram": "8 GB",
+        "storage": "128 GB",
+        "processor": "Snapdragon 8+ Gen 1"
+      }
+    },
+    {
+      "id": 4,
+      "title": "Google Pixel 7 Pro",
+      "price": 84999,
+      "description": "Google flagship with Tensor G2 chip and advanced AI photography features.",
+      "category": "smartphones",
+      "image": "https://rukminim2.flixcart.com/image/850/1000/xif0q/mobile/t/u/m/-original-imaggsuehy3nyj3b.jpeg?q=90&crop=false",
+      "rating": {
+        "rate": 4.6,
+        "count": 1234
+      },
+      "specifications": {
+        "ram": "12 GB",
+        "storage": "256 GB",
+        "processor": "Google Tensor G2"
+      }
+    },
+    {
+      "id": 5,
+      "title": "Xiaomi 13 Pro",
+      "price": 79999,
+      "description": "Premium smartphone with Leica optics and Snapdragon 8 Gen 2.",
+      "category": "smartphones",
+      "image": "https://www.gizmochina.com/wp-content/uploads/2022/10/Xiaomi-13-Pro-500x500.png",
+      "rating": {
+        "rate": 4.4,
+        "count": 890
+      },
+      "specifications": {
+        "ram": "12 GB",
+        "storage": "256 GB",
+        "processor": "Snapdragon 8 Gen 2"
+      }
+    },
+    {
+      "id": 6,
+      "title": "Vivo V27 Pro",
+      "price": 37999,
+      "description": "Mid-range smartphone with color changing back and 50MP camera.",
+      "category": "smartphones",
+      "image": "https://oxygendigitalshop.com/media/cache/2500x0/catalog/product/4/_/4_328_1_1679471198.webp",
+      "rating": {
+        "rate": 4.3,
+        "count": 3567
+      },
+      "specifications": {
+        "ram": "8 GB",
+        "storage": "128 GB",
+        "processor": "Dimensity 8200"
+      }
+    },
+    {
+      "id": 7,
+      "title": "OPPO Reno 10 Pro",
+      "price": 39999,
+      "description": "Sleek smartphone with curved display and 64MP camera system.",
+      "category": "smartphones",
+      "image": "https://assets.sangeethamobiles.com/product_img/13711/1688639326_92o.jpg",
+      "rating": {
+        "rate": 4.2,
+        "count": 2345
+      },
+      "specifications": {
+        "ram": "8 GB",
+        "storage": "256 GB",
+        "processor": "Snapdragon 778G"
+      }
+    },
+    {
+      "id": 8,
+      "title": "iQOO Neo 7 Pro",
+      "price": 34999,
+      "description": "Gaming-focused smartphone with Snapdragon 8+ Gen 1.",
+      "category": "smartphones",
+      "image": "https://m.media-amazon.com/images/I/712pLRfzDYL.jpg",
+      "rating": {
+        "rate": 4.4,
+        "count": 1789
+      },
+      "specifications": {
+        "ram": "8 GB",
+        "storage": "128 GB",
+        "processor": "Snapdragon 8+ Gen 1"
+      }
+    },
+    {
+      "id": 9,
+      "title": "Nothing Phone (2)",
+      "price": 44999,
+      "description": "Unique smartphone with Glyph interface and clean software.",
+      "category": "smartphones",
+      "image": "https://digitalmart.store/wp-content/uploads/2023/08/Nothing-Phone-2-White.png",
+      "rating": {
+        "rate": 4.5,
+        "count": 980
+      },
+      "specifications": {
+        "ram": "12 GB",
+        "storage": "256 GB",
+        "processor": "Snapdragon 8+ Gen 1"
+      }
+    },
+    {
+      "id": 10,
+      "title": "Realme 11 Pro+",
+      "price": 27999,
+      "description": "Mid-range smartphone with 200MP camera and fast charging.",
+      "category": "smartphones",
+      "image": "https://mobifast.in/storage/capture-13-600x600.PNG",
+      "rating": {
+        "rate": 4.3,
+        "count": 4567
+      },
+      "specifications": {
+        "ram": "8 GB",
+        "storage": "256 GB",
+        "processor": "Dimensity 7050"
+      }
+    },
+  {
+      "id": 11,
+      "title": "MacBook Pro 16",
+      "price": 249900,
+      "description": "Premium laptop with M2 Pro chip and mini-LED display.",
+      "category": "laptops",
+      "image": "https://iplanet.one/cdn/shop/files/r1620_Space_Gray_PDP_Image_Position-1_Avail__en-IN.jpg?v=1691143498&width=823",
+      "rating": {
+        "rate": 4.8,
+        "count": 890
+      },
+      "specifications": {
+        "processor": "M2 Pro",
+        "ram": "16 GB",
+        "storage": "512 GB SSD"
+      }
+    },
+    {
+      "id": 12,
+      "title": "Dell XPS 13 Plus",
+      "price": 159990,
+      "description": "Premium ultrabook with 13th Gen Intel processor and OLED display.",
+      "category": "laptops",
+      "image": "https://www.delltechnologies.com/uploads/2022/01/xpsblog2.png",
+      "rating": {
+        "rate": 4.6,
+        "count": 567
+      },
+      "specifications": {
+        "processor": "Intel i7-1360P",
+        "ram": "16 GB",
+        "storage": "512 GB SSD"
+      }
+    },
+    {
+      "id": 13,
+      "title": "HP Pavilion Gaming",
+      "price": 69990,
+      "description": "Gaming laptop with RTX 3050 graphics and high refresh rate display.",
+      "category": "laptops",
+      "image": "https://rukminim2.flixcart.com/image/850/1000/kesv0y80/computer/2/a/a/hp-na-gaming-laptop-original-imafvebeacftc5pc.jpeg?q=90&crop=false",
+      "rating": {
+        "rate": 4.4,
+        "count": 2345
+      },
+      "specifications": {
+        "processor": "Ryzen 5 5600H",
+        "ram": "8 GB",
+        "storage": "512 GB SSD"
+      }
+    },
+    {
+      "id": 14,
+      "title": "Lenovo IdeaPad Slim 5",
+      "price": 54990,
+      "description": "Thin and light laptop with great battery life.",
+      "category": "laptops",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkWOWVu72GlwIfOwMPtGFIcaqe9z_WdLoMDA&s",
+      "rating": {
+        "rate": 4.3,
+        "count": 1234
+      },
+      "specifications": {
+        "processor": "Ryzen 5 7530U",
+        "ram": "16 GB",
+        "storage": "512 GB SSD"
+      }
+    },
+    {
+      "id": 15,
+      "title": "ASUS ROG Strix G15",
+      "price": 94990,
+      "description": "Premium gaming laptop with RGB lighting and high-end graphics.",
+      "category": "laptops",
+      "image": "https://dlcdnwebimgs.asus.com/files/media/8B74E7EE-B66A-4420-894E-3C3B980312EE/v2/img/design/color/strix-g-2022-pink.png",
+      "rating": {
+        "rate": 4.7,
+        "count": 890
+      },
+      "specifications": {
+        "processor": "Ryzen 7 6800H",
+        "ram": "16 GB",
+        "storage": "1 TB SSD"
+      }
+    },
+    {
+      "id": 16,
+      "title": "Acer Nitro 5",
+      "price": 76990,
+      "description": "Value gaming laptop with RTX 3060 graphics.",
+      "category": "laptops",
+      "image": "https://m.media-amazon.com/images/I/71927eDsJJL.jpg",
+      "rating": {
+        "rate": 4.5,
+        "count": 1567
+      },
+      "specifications": {
+        "processor": "Intel i5-12500H",
+        "ram": "16 GB",
+        "storage": "512 GB SSD"
+      }
+    },
+    {
+      "id": 17,
+      "title": "MSI Modern 14",
+      "price": 49990,
+      "description": "Lightweight laptop for productivity and content creation.",
+      "category": "laptops",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1_2HD_3gAafwri2GVY6vG1Wp8K_RbIfsnWg&s",
+      "rating": {
+        "rate": 4.2,
+        "count": 678
+      },
+      "specifications": {
+        "processor": "Intel i5-1235U",
+        "ram": "8 GB",
+        "storage": "512 GB SSD"
+      }
+    },
+    {
+      "id": 18,
+      "title": "Realme Book Slim",
+      "price": 44990,
+      "description": "Affordable premium laptop with 2K display.",
+      "category": "laptops",
+      "image": "https://bsmedia.business-standard.com/_media/bs/img/article/2021-09/09/full/1631163486-9105.jpg?im=FeatureCrop,size=(826,465)",
+      "rating": {
+        "rate": 4.3,
+        "count": 890
+      },
+      "specifications": {
+        "processor": "Intel i5-11320H",
+        "ram": "8 GB",
+        "storage": "256 GB SSD"
+      }
+    },
+    {
+      "id": 19,
+      "title": "Microsoft Surface Laptop 5",
+      "price": 124990,
+      "description": "Premium Windows laptop with touchscreen display.",
+      "category": "laptops",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYubtdJAE5YPgtEseHEAUFwaxHYEqA8p81Aw&s",
+      "rating": {
+        "rate": 4.6,
+        "count": 456
+      },
+      "specifications": {
+        "processor": "Intel i5-1235U",
+        "ram": "16 GB",
+        "storage": "512 GB SSD"
+      }
+    },
+    {
+      "id": 20,
+      "title": "RedmiBook 15 Pro",
+      "price": 39990,
+      "description": "Value laptop for everyday computing needs.",
+      "category": "laptops",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCYLFUfvzI-BYA4hkn6Lm8D2zkMipk0XfY7w&s",
+      "rating": {
+        "rate": 4.1,
+        "count": 2345
+      },
+      "specifications": {
+        "processor": "Intel i5-11300H",
+        "ram": "8 GB",
+        "storage": "512 GB SSD"
+      }
+    },
+    {
+      "id": 21,
+      "title": "Nike Men's Running T-Shirt",
+      "price": 1499,
+      "description": "Dri-FIT technology running t-shirt for maximum comfort.",
+      "category": "clothing",
+      "image": "https://static.nike.com/a/images/t_PDP_936_v1/f_auto,q_auto:eco/268c8d41-c4a0-4e9e-aecb-10d8d8957ebc/AS+M+NK+DF+MILER+SWOOSH+SS+TOP.png",
+      "rating": {
+        "rate": 4.5,
+        "count": 3456
+      },
+      "specifications": {
+        "material": "Polyester",
+        "fit": "Regular",
+        "type": "Sports"
+      }
+    },
+    {
+      "id": 22,
+      "title": "Levi's Women's Jeans",
+      "price": 2799,
+      "description": "Classic high-rise skinny fit jeans.",
+      "category": "clothing",
+      "image": "https://rukminim2.flixcart.com/image/850/1000/xif0q/jean/f/r/h/28-21306-0562-levi-s-original-imaghckvhzyhymah.jpeg?q=90&crop=false",
+      "rating": {
+        "rate": 4.4,
+        "count": 2345
+      },
+      "specifications": {
+        "material": "Denim",
+        "fit": "Skinny",
+        "rise": "High"
+      }
+    },
+    {
+      "id": 23,
+      "title": "Allen Solly Men's Shirt",
+      "price": 1299,
+      "description": "Formal cotton shirt with regular fit.",
+      "category": "clothing",
+      "image": "https://imagescdn.allensolly.com/img/app/product/4/493432-3694265.jpg?auto=format&w=390",
+      "rating": {
+        "rate": 4.3,
+        "count": 1678
+      },
+      "specifications": {
+        "material": "Cotton",
+        "fit": "Regular",
+        "type": "Formal"
+      }
+    },
+    {
+      "id": 24,
+      "title": "BIBA Women's Kurta",
+      "price": 1899,
+      "description": "Printed A-line kurta with traditional design.",
+      "category": "clothing",
+      "image": "https://www.biba.in/dw/image/v2/BKQK_PRD/on/demandware.static/-/Sites-biba-product-catalog/default/dwac6dee0b/images/aw23/fstve19873aw23pur_1.jpg?sw=502&sh=753",
+      "rating": {
+        "rate": 4.2,
+        "count": 890
+      },
+      "specifications": {
+        "material": "Cotton",
+        "fit": "A-Line",
+        "type": "Ethnic"
+      }
+    },
+    {
+    "id": 25,
+    "title": "Puma Men's Track Pants",
+    "price": 999,
+    "description": "Comfortable track pants for sports and casual wear.",
+    "category": "clothing",
+    "image": "https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/18981516/2022/8/22/373e005b-e121-48af-99eb-842b7b15af461661163166915-Puma-Men-Green-Slim-Fit-Evostripe-Track-Pants-76616611631659-1.jpg",
+    "rating": {
+      "rate": 4.1,
+      "count": 2345
+    },
+    "specifications": {
+      "material": "Polyester",
+      "fit": "Regular",
+      "type": "Sports"
+    }
+  },
+  {
+    "id": 26,
+    "title": "Zara Women's Winter Jacket",
+    "price": 3999,
+    "description": "Stylish winter jacket with warm padding and multiple pockets.",
+    "category": "clothing",
+    "image": "https://static.zara.net/assets/public/5f6e/7e1c/cfb146a0a713/32eb0e55b347/04749740800-a1/04749740800-a1.jpg?ts=1730222815555",
+    "rating": {
+      "rate": 4.4,
+      "count": 1256
+    },
+    "specifications": {
+      "material": "Polyester",
+      "padding": "Cotton",
+      "season": "Winter"
+    }
+  },
+  {
+    "id": 27,
+    "title": "H&M Men's Sweatshirt",
+    "price": 1499,
+    "description": "Casual sweatshirt with comfortable cotton blend fabric.",
+    "category": "clothing",
+    "image": "https://assets.myntassets.com/w_412,q_60,dpr_2,fl_progressive/assets/images/25154390/2023/9/25/2d330ce2-d3d1-4fb8-9fe3-42e0ffea02f81695647436879HMRelaxed-FitDrop-ShoulderSweatshirt1.jpg",
+    "rating": {
+      "rate": 4.2,
+      "count": 890
+    },
+    "specifications": {
+      "material": "Cotton Blend",
+      "fit": "Regular",
+      "type": "Casual"
+    }
+  },
+  {
+    "id": 28,
+    "title": "Forever 21 Women's Dress",
+    "price": 1799,
+    "description": "Floral print summer dress with comfortable fit.",
+    "category": "clothing",
+    "image": "https://i.pinimg.com/736x/0c/f1/2a/0cf12a1be7b6bfcc67f341d02011be59.jpg",
+    "rating": {
+      "rate": 4.0,
+      "count": 678
+    },
+    "specifications": {
+      "material": "Rayon",
+      "pattern": "Floral",
+      "length": "Midi"
+    }
+  },
+  {
+    "id": 29,
+    "title": "UCB Men's Polo T-Shirt",
+    "price": 1299,
+    "description": "Classic polo t-shirt with brand embroidery.",
+    "category": "clothing",
+    "image": "https://rukminim2.flixcart.com/image/850/1000/xif0q/t-shirt/h/n/d/m-22p3089jr300i901-united-colors-of-benetton-original-imaggzf8czqfvtzz.jpeg?q=90&crop=false",
+    "rating": {
+      "rate": 4.3,
+      "count": 1567
+    },
+    "specifications": {
+      "material": "Cotton",
+      "fit": "Regular",
+      "type": "Casual"
+    }
+  },
+  {
+    "id": 30,
+    "title": "W Women's Palazzo",
+    "price": 899,
+    "description": "Comfortable palazzo pants with elastic waistband.",
+    "category": "clothing",
+    "image": "https://juniperfashion.com/cdn/shop/files/9713ONNNATURAL-5_c1b468d8-4ac7-4753-89a5-827d1caf12a3.jpg?v=1737543595&width=2048",
+    "rating": {
+      "rate": 4.1,
+      "count": 2345
+    },
+    "specifications": {
+      "material": "Rayon",
+      "fit": "Flared",
+      "length": "Full"
+    }
+  },
+  {
+    "id": 31,
+    "title": "LG 190L Single Door Refrigerator",
+    "price": 16990,
+    "description": "Energy efficient refrigerator with smart inverter compressor.",
+    "category": "home appliances",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRW2yL_v4tDwdZAReASWJkIMJDLyB6El-mbUw&s",
+    "rating": {
+      "rate": 4.4,
+      "count": 3456
+    },
+    "specifications": {
+      "capacity": "190L",
+      "starRating": "4 Star",
+      "cooling": "Direct Cool"
+    }
+  },
+  {
+    "id": 32,
+    "title": "Samsung 6.5kg Washing Machine",
+    "price": 15990,
+    "description": "Fully automatic top load washing machine with diamond drum.",
+    "category": "home appliances",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDe1ZtycApFth4__p1rNJK0biJhaSWdizhPw&s",
+    "rating": {
+      "rate": 4.3,
+      "count": 2789
+    },
+    "specifications": {
+      "capacity": "6.5 kg",
+      "type": "Top Load",
+      "programs": "9"
+    }
+  },
+  {
+    "id": 33,
+    "title": "Whirlpool 1.5 Ton AC",
+    "price": 32990,
+    "description": "Split AC with 6th sense technology and inverter compressor.",
+    "category": "home appliances",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJlvDUcCAGwgwRtwPhanTvqwwZs6066HObWA&s",
+    "rating": {
+      "rate": 4.5,
+      "count": 1234
+    },
+    "specifications": {
+      "capacity": "1.5 Ton",
+      "starRating": "5 Star",
+      "type": "Inverter"
+    }
+  },
+  {
+    "id": 34,
+    "title": "Havells 1200mm Ceiling Fan",
+    "price": 2499,
+    "description": "High-speed ceiling fan with decorative finish.",
+    "category": "home appliances",
+    "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSfgwfrmUnQ8zI-oD6QNeynHVKXC7RGekJ6Xt_NzS8_Aw4IpdUfztMUHdcELT3tkGWkjFD-IL8g3_7BlvZK41EZDALoZ0ApB-qgqi-u6hcBZFI2M74x8k4fStgi2tmA0EpJKirhwtU&usqp=CAc",
+    "rating": {
+      "rate": 4.2,
+      "count": 4567
+    },
+    "specifications": {
+      "speed": "380 RPM",
+      "power": "75W",
+      "warranty": "2 Years"
+    }
+  },
+  {
+    "id": 35,
+    "title": "Bajaj 20L Microwave Oven",
+    "price": 9999,
+    "description": "Solo microwave with multiple cooking modes.",
+    "category": "home appliances",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHedh7KRGkONw_rn8WJtotdDDQXy8BIpnFxw&s",
+    "rating": {
+      "rate": 4.1,
+      "count": 890
+    },
+    "specifications": {
+      "capacity": "20L",
+      "type": "Solo",
+      "programs": "10"
+    }
+  },
+  {
+    "id": 36,
+    "title": "Kent RO Water Purifier",
+    "price": 14990,
+    "description": "RO+UV+UF water purifier with mineral retention technology.",
+    "category": "home appliances",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYb02R-cn3cUlKy3Ekb_yK47elhpNFE0lGSg&s",
+    "rating": {
+      "rate": 4.6,
+      "count": 2345
+    },
+    "specifications": {
+      "capacity": "7L",
+      "stages": "8",
+      "technology": "RO+UV+UF"
+    }
+  },
+  {
+    "id": 37,
+    "title": "Philips Air Fryer",
+    "price": 8999,
+    "description": "Digital air fryer with rapid air technology.",
+    "category": "home appliances",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTA7mlcVGsKgIN_4XXOr8NHL5Jci7cs0LEWg&s",
+    "rating": {
+      "rate": 4.4,
+      "count": 1567
+    },
+    "specifications": {
+      "capacity": "4.1L",
+      "power": "1400W",
+      "programs": "7"
+    }
+  },
+  {
+    "id": 38,
+    "title": "Butterfly Mixer Grinder",
+    "price": 3499,
+    "description": "750W mixer grinder with 4 jars.",
+    "category": "home appliances",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0lQEGwH_b9rvXlr4eC1bm1NidGwP4sHKEGg&s",
+    "rating": {
+      "rate": 4.2,
+      "count": 3456
+    },
+    "specifications": {
+      "power": "750W",
+      "jars": "4",
+      "warranty": "2 Years"
+    }
+  },
+  {
+    "id": 39,
+    "title": "Prestige Induction Cooktop",
+    "price": 2999,
+    "description": "1600W induction cooktop with multiple cooking modes.",
+    "category": "home appliances",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqI7JxMMPrqgkThs_1k1PFLs4a-oSEkOm7IA&s",
+    "rating": {
+      "rate": 4.3,
+      "count": 2789
+    },
+    "specifications": {
+      "power": "1600W",
+      "programs": "6",
+      "warranty": "1 Year"
+    }
+  },
+  {
+    "id": 40,
+    "title": "Orient Electric Room Heater",
+    "price": 1999,
+    "description": "2000W room heater with adjustable thermostat.",
+    "category": "home appliances",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSElCJR3Ijtha6aRe-UOq7QWHhf1iyUwaY16Q&s",
+    "rating": {
+      "rate": 4.0,
+      "count": 1234
+    },
+    "specifications": {
+      "power": "2000W",
+      "settings": "3",
+      "type": "Fan Heater"
+    }
+  }
+  ]
+
+}
